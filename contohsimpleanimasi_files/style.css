@@ -1,0 +1,75 @@
+/*
+Theme Name: trcc webpack
+*/
+
+/* Suisse Intl */
+
+@font-face {
+    font-family: "SuisseIntl";
+    src: url("./fonts/SuisseIntl-Regular-WebXL.woff2") format("woff2"),
+        url("./fonts/SuisseIntl-Regular-WebXL.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SuisseIntl";
+    src: url("./fonts/SuisseIntl-RegularItalic-WebS.woff2") format("woff2"),
+        url("./fonts/SuisseIntl-RegularItalic-WebS.woff") format("woff");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "SuisseIntl";
+    src: url("./fonts/SuisseIntl-Medium-WebXL.woff2") format("woff2"),
+        url("./fonts/SuisseIntl-Medium-WebXL.woff") format("woff");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "SuisseIntl";
+    src: url("./fonts/SuisseIntl-Bold-WebS.woff2") format("woff2"),
+        url("./fonts/SuisseIntl-Bold-WebS.woff") format("woff");
+    font-weight: 900;
+}
+
+
+@font-face {
+    font-family: "SuisseWorks";
+    src: url("./fonts/SuisseWorks-Book-WebXL.woff2") format("woff2"),
+        url("./fonts/SuisseWorks-Book-WebXL.woff") format("woff");
+    font-weight: normal;
+}
+
+
+@font-face {
+    font-family: "trccMono";
+    src: url("./fonts/ibmPlexMono.woff") format("woff");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "trccMono";
+    src: url("./fonts/ibmPlexMonoItalic.woff") format("woff");
+    font-weight: normal;
+    font-style: italic;
+}
+
+.arrow-right::after {
+    content: '→';
+    padding-left: 10px;
+    transition: 0.4s ease;
+}
+
+.arrow-right:hover::after {
+    padding-left: 50px;
+}
+
+h2 a {
+    color: black;
+}
+
+h2 a:hover {
+    color: blue;
+}
